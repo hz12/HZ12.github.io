@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang=zh>
-{% if theme.canvas_nest %}
-<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
-{% endif %}
 <head>
   <meta charset="utf-8">
   <meta name=referrer content=never>
@@ -49,7 +46,9 @@
 
 </head>
 
-
+{% if theme.canvas_nest %}
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+{% endif %}
 
 
 <body class="main-center" itemscope itemtype="http://schema.org/WebPage">
