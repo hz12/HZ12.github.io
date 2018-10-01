@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-28T13:28:40.325Z</updated>
+  <updated>2018-10-01T10:21:39.179Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,22 +17,119 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>The beginning of story</title>
-    <link href="http://yoursite.com/2018/09/28/The-beginning-of-story/"/>
-    <id>http://yoursite.com/2018/09/28/The-beginning-of-story/</id>
-    <published>2018-09-28T12:26:23.000Z</published>
-    <updated>2018-09-28T13:28:40.325Z</updated>
+    <title>java项目部署到服务器</title>
+    <link href="http://yoursite.com/2018/10/01/javaweb%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://yoursite.com/2018/10/01/javaweb项目部署到服务器/</id>
+    <published>2018-10-01T10:18:31.958Z</published>
+    <updated>2018-10-01T10:21:39.179Z</updated>
+    
+    <content type="html"><![CDATA[<p>将项目部署到服务器上即可用域名或IP地址访问了</p><p>1.1  web项目打包上传服务器<br><a href="https://blog.csdn.net/qq_37733625/article/details/78932238" target="_blank" rel="noopener">https://blog.csdn.net/qq_37733625/article/details/78932238</a><br>2.1设置域名解析<br><a href="https://help.aliyun.com/document_detail/29716.html" target="_blank" rel="noopener">https://help.aliyun.com/document_detail/29716.html</a><br>3.1  通过域名直接访问部署在tomcat下的工程<br><a href="https://blog.csdn.net/yang920106/article/details/72780633" target="_blank" rel="noopener">https://blog.csdn.net/yang920106/article/details/72780633</a><br>4.4批量将本地sql导入到服务器mysql数据库中，和将服务器中的sql导出到本地<br><a href="https://blog.csdn.net/qq_20565303/article/details/78795526" target="_blank" rel="noopener">https://blog.csdn.net/qq_20565303/article/details/78795526</a><br>注意这种方法要修改web项目中的数据库地址</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;将项目部署到服务器上即可用域名或IP地址访问了&lt;/p&gt;
+&lt;p&gt;1.1  web项目打包上传服务器&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/qq_37733625/article/details/78932238&quot; target=&quot;_blank&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="javaweb" scheme="http://yoursite.com/tags/javaweb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>端口问题和防火墙查看</title>
+    <link href="http://yoursite.com/2018/10/01/%E7%AB%AF%E5%8F%A3%E9%97%AE%E9%A2%98%E5%92%8C%E9%98%B2%E7%81%AB%E5%A2%99%E6%9F%A5%E7%9C%8B/"/>
+    <id>http://yoursite.com/2018/10/01/端口问题和防火墙查看/</id>
+    <published>2018-10-01T10:07:43.933Z</published>
+    <updated>2018-10-01T10:22:23.138Z</updated>
+    
+    <content type="html"><![CDATA[<p>端口即道路，每个软件的运行都有一个自己的进出口<br>端口被占用即进出口错乱，’交通’就会出现问题，交通一出现问题，货物就运不出去<br>即程序就无法运行，下面我们就来看一下怎么查看端口的交通情况</p><p>1.1  Centos查看端口占用情况和开启端口命令[<br><a href="https://blog.csdn.net/carechere/article/details/52288058" target="_blank" rel="noopener">https://blog.csdn.net/carechere/article/details/52288058</a><br>1.2  CentOS7查询端口占用，清除端口占用的程序，开放端口，打开防火墙<br><a href="https://blog.csdn.net/zhangtong11111/article/details/79052418" target="_blank" rel="noopener">https://blog.csdn.net/zhangtong11111/article/details/79052418</a></p><p>防火墙，即一堵安全墙，主要用于保护内网，不让外面的有害信息从门口（端口）进入<br>所以，开几座门，让哪些人’’人’’放行，就比较重要了</p><p>2.1   CentOS7使用firewalld打开关闭防火墙与端口<br><a href="https://www.cnblogs.com/moxiaoan/p/5683743.html" target="_blank" rel="noopener">https://www.cnblogs.com/moxiaoan/p/5683743.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;端口即道路，每个软件的运行都有一个自己的进出口&lt;br&gt;端口被占用即进出口错乱，’交通’就会出现问题，交通一出现问题，货物就运不出去&lt;br&gt;即程序就无法运行，下面我们就来看一下怎么查看端口的交通情况&lt;/p&gt;
+&lt;p&gt;1.1  Centos查看端口占用情况和开启端口命令[&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="fire" scheme="http://yoursite.com/tags/fire/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浅谈javaweb项目环境搭建</title>
+    <link href="http://yoursite.com/2018/10/01/%E6%B5%85%E8%B0%88javaweb%E9%A1%B9%E7%9B%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>http://yoursite.com/2018/10/01/浅谈javaweb项目环境搭建/</id>
+    <published>2018-10-01T09:54:03.934Z</published>
+    <updated>2018-10-01T10:20:23.421Z</updated>
+    
+    <content type="html"><![CDATA[<p>javaweb项目，简单来说就是我们在浏览器上可以看到的内容<br>本文以环境搭建为主，就目前简单web来说<br>服务器上也同样需要有计算机上所需要的运行环境<br>如，java,tomcat,mysql 就是本文所需要的，从导出项目的简便上来说<br>这些在服务器上运行的环境还是与计算机上运行的环境版本号一致为好<br>也避免在以后运行中出现不兼容的问题</p><p>想要在网上运行自己的项目，没有一台服务器是不行的，所以</p><p>1.购买一台服务器<br>目前阿里的阿里云和腾讯的腾讯云都有相应的学生优惠措施大家可以看一下<br>阿里：<a href="https://promotion.aliyun.com/ntms/act/campus2018.html?utm_content=se_1000442309" target="_blank" rel="noopener">阿里云云翼计划</a><br>腾讯 :      <a href="https://cloud.tencent.com/act/campus?fromSource=gwzcw.786780.786780.786780#step1" target="_blank" rel="noopener">云+校园</a><br>具体购买步骤请自己搜索</p><p>2.连接服务器<br>买完之后大家可能有点恍惚，刚刚在干了什么，买了什么？怎么看不见实物呢<br>其实大家这才开始进入云的世界。云，即远程服务器，就是在远处的一处服务商品<br>我们从本地付款之后就对它拥有了主权，可以对它任意干什么了<br>那么，我们该如何联系我们的商品呢，是用手机，还是邮件？答案都不是的<br>服务器其实也是一种类型的电脑，我们同样需要在电脑上来联系它<br>即两种软件<br>2.1  xshell<br>2.2  xftp或winscp<br>xhell主要用命令行的方式来控制“电脑”，即让“电脑”干什么，执行什么命令<br>这不是我们电脑普通的图形化界面，而是黑色的shell命令行，即一种形式上的dos命令<br>xtp或winscp主要来进行文件管理，即你新建的文件放在什么位置<br>通过这个软件你就能找到它在哪个位置，并能修改文件<br>软件下载可以在官网上自己查找</p><p>3.配置java环境<br>java项目即必须要java环境来支撑,具体内容请看下面转载</p><p>4.配置tomcat环境<br>tamcat主要用来执行托管项目，具体配置请看下面转载</p><p>5.配置mysql环境<br>mysql是一种数据库，用于进行操作项目中的数据来进行运行web,具体需要请看转载<br>5.1  centos7安装MySQL<br>(<a href="https://www.cnblogs.com/bigbrotherer/p/7241845.html" target="_blank" rel="noopener">https://www.cnblogs.com/bigbrotherer/p/7241845.html</a>)<br>5.2  centos下完全卸载mysql<br>(<a href="https://www.cnblogs.com/wanghuaijun/p/6398240.html" target="_blank" rel="noopener">https://www.cnblogs.com/wanghuaijun/p/6398240.html</a>)<br>5.3  centos查看mysql数据库命令<br>(<a href="http://www.cnblogs.com/Ai-Hen-Jiao-zhi/p/9600621.html" target="_blank" rel="noopener">http://www.cnblogs.com/Ai-Hen-Jiao-zhi/p/9600621.html</a>)<br>5.4  MySQL查看修改存储引擎总结<br>(<a href="https://www.cnblogs.com/kerrycode/p/6571868.html" target="_blank" rel="noopener">https://www.cnblogs.com/kerrycode/p/6571868.html</a>)<br>这种方法主要用于查看本地mysql导出sql文件与服务器mysql运行l版本不一致问题<br>5.5  linux系统下mysql跳过密码验证登录和创建新用户<br>(<a href="https://www.cnblogs.com/grimm/p/5363333.html" target="_blank" rel="noopener">https://www.cnblogs.com/grimm/p/5363333.html</a>)<br>这种情况主要用于第一次登陆mysql</p><p>好了到目前为止，javaweb项目服务器环境已经基本搭好了，请大家尝试一下</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;javaweb项目，简单来说就是我们在浏览器上可以看到的内容&lt;br&gt;本文以环境搭建为主，就目前简单web来说&lt;br&gt;服务器上也同样需要有计算机上所需要的运行环境&lt;br&gt;如，java,tomcat,mysql 就是本文所需要的，从导出项目的简便上来说&lt;br&gt;这些在服务器上运行
+      
+    
+    </summary>
+    
+    
+      <category term="javaweb" scheme="http://yoursite.com/tags/javaweb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建博客hexo+github</title>
+    <link href="http://yoursite.com/2018/10/01/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2hexo+github/"/>
+    <id>http://yoursite.com/2018/10/01/搭建博客hexo+github/</id>
+    <published>2018-10-01T08:33:48.950Z</published>
+    <updated>2018-10-01T10:21:12.819Z</updated>
+    
+    <content type="html"><![CDATA[<p> 下面我们讲一下博客的搭建工作<br> 现在写博客已经不是一种稀奇了，越来越多的人员加入到这个队伍，写属于自己的个人博客<br> 博客根据学科的分类也有所不同，我这里主要讲一下程序的小类<br> 手法是在网上摘抄的，费了老大劲儿头才在这网络中有了属于自己的一个网页<br> 现在博客大部分都采用集成博客，即不需要自己设计，在网站上注册账号就可以了，如流行的CSDN等<br> 但那种是不能用域名和主机IP地址访问的，据我目前所知能用域名访问的有两种方法<br> 一个是服务器上基于PHP环境的WordPress，一个是github+hexo<br> 都是采用主题样式的（即不需要自己设计，采用别人的主题直接用就可以）<br> 因为前辈们准备的已经很清楚了，所以我就不自己再写一遍了，直接发链接好了<br>1.1 使用Hexo+Github一步步 搭建属于自己的博客[基础]<br>(<a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">https://www.cnblogs.com/fengxiongZz/p/7707219.html</a>)<br>1.2 使用Hexo+Github一步步 搭建属于自己的博客 [进阶]<br>(<a href="http://www.cnblogs.com/fengxiongZz/p/7707568.html" target="_blank" rel="noopener">http://www.cnblogs.com/fengxiongZz/p/7707568.html</a>)<br>2.1 基于Hexo+Github+Coding搭建个人博客–基础篇[从菜鸟到放弃]<br>(<a href="http://yangbingdong.com/2017/build-blog-hexo-base/" target="_blank" rel="noopener">http://yangbingdong.com/2017/build-blog-hexo-base/</a>)</p><p>以上是两位先生的搭建思路，很详细，请大家参考，下面我讲一下我这篇主题</p><p>3.1 Cofess先生发布的hexo主题pure[模板]<br>(<a href="https://blog.cofess.com/" target="_blank" rel="noopener">https://blog.cofess.com/</a>)<br>3.2 主题博客github[主题很多，可以都点开看一下]<br>(<a href="https://github.com/cofess/" target="_blank" rel="noopener">https://github.com/cofess/</a>)</p><p>下面看一下我对这篇主题的修改<br>4.1 为Hexo博客添加LiveRe评论系统[添加评论]<br>(<a href="https://www.imooc.com/article/details/id/22866" target="_blank" rel="noopener">https://www.imooc.com/article/details/id/22866</a>)<br>注意在本主题pure中不需要那么多步骤，但需要申请出LiveRe账号<br>因为主题中已经给出了LiveRe代码，在\boke\themes\pure\layout_script_comment\livere.ejs中已经给出<br>只需在\pure_config.yml中Comment下选择<br>type: livere ,并给出livere: uid: —–即可，uid在自己申请的livere代码中查找<br>5.1 hexo博客的背景设置[背景设置]<br>(<a href="https://blog.csdn.net/com_ma/article/details/76039859" target="_blank" rel="noopener">https://blog.csdn.net/com_ma/article/details/76039859</a>)<br>5.2主题如何添加动态背景[即线条动态]<br>(<a href="http://shenzekun.cn/hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF.html" target="_blank" rel="noopener">http://shenzekun.cn/hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF.html</a>)<br>在这里要注意下_layout.swig在本主题pure中地址为<br>boke(自己博客的地址)\themes\pure\layout\layout.ejs<br>6.1 Hexo博客主题pure修改记录[pure主题]<br>(<a href="https://blog.csdn.net/a945372160/article/details/78806700" target="_blank" rel="noopener">https://blog.csdn.net/a945372160/article/details/78806700</a>)</p><p>好了，经过以上步骤就可以有<a href="https://technologychen.tech/" target="_blank" rel="noopener">我的博客地址</a>上的简单样式了，大家试一下吧</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; 下面我们讲一下博客的搭建工作&lt;br&gt; 现在写博客已经不是一种稀奇了，越来越多的人员加入到这个队伍，写属于自己的个人博客&lt;br&gt; 博客根据学科的分类也有所不同，我这里主要讲一下程序的小类&lt;br&gt; 手法是在网上摘抄的，费了老大劲儿头才在这网络中有了属于自己的一个网页&lt;br&gt; 
+      
     
     </summary>
     
     
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+  </entry>
+  
+  <entry>
+    <title>The beginning of story</title>
+    <link href="http://yoursite.com/2018/10/01/The%20beginning%20of%20story/"/>
+    <id>http://yoursite.com/2018/10/01/The beginning of story/</id>
+    <published>2018-10-01T07:24:44.486Z</published>
+    <updated>2018-10-01T07:27:54.989Z</updated>
     
-      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    <content type="html"><![CDATA[<p>博客，一种记录人正常生活的语言，可以是心得，也可以是调侃<br>可以封闭，可以开放，但主观上来说主要以交流与传承为主，也正因为如此<br>我们才能在前辈的基础上得到自己想要的答案<br>写博客是一种体力活，也是一种脑力劳动，正如写日记，无数的人起因于兴趣，败落于琐事<br>我也不知道自己能写到什么时候，能写出什么内容<br>也不知道什么时候能更新，什么时候退出<br>反正，坚持吧</p><p><img src="https://img-blog.csdn.net/20181001152246211?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaWNoZW4xMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="在这里插入图片描述"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;博客，一种记录人正常生活的语言，可以是心得，也可以是调侃&lt;br&gt;可以封闭，可以开放，但主观上来说主要以交流与传承为主，也正因为如此&lt;br&gt;我们才能在前辈的基础上得到自己想要的答案&lt;br&gt;写博客是一种体力活，也是一种脑力劳动，正如写日记，无数的人起因于兴趣，败落于琐事&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="stoary" scheme="http://yoursite.com/tags/stoary/"/>
     
   </entry>
   
